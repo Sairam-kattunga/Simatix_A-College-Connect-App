@@ -1,0 +1,53 @@
+name: simatix
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # To open external URLs
+  url_launcher: ^6.3.2
+  http: ^1.2.1
+  dio: ^5.9.0
+  open_file: ^3.2.1
+  path_provider: ^2.0.15
+
+  intl: ^0.18.1
+  font_awesome_flutter: ^10.10.0
+
+  shimmer: ^3.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # For generating custom app icons
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/"# 👈 Your app icon file (replace with PNG recommended)
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.jpg
+    - assets/college.png
+    # Add more images if needed
+    # - assets/images/
