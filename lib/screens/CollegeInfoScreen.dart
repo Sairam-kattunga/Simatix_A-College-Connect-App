@@ -144,8 +144,6 @@ class CollegeInfoScreen extends StatelessWidget {
             const InfoRow(icon: FontAwesomeIcons.link, title: 'Affiliation', value: 'NMC'),
             const InfoRow(icon: FontAwesomeIcons.userTie, title: 'Chairman', value: 'Dr. N. V. Veerian'),
             const InfoRow(icon: FontAwesomeIcons.userGraduate, title: 'Vice-Chancellor', value: 'Dr. Rakesh Kumar Sharma'),
-            const InfoRow(icon: FontAwesomeIcons.chalkboardUser, title: 'Academic Staff', value: '270'),
-            const InfoRow(icon: FontAwesomeIcons.users, title: 'Students', value: '1,314 (UG: 749, PG: 178, Doctoral: 387)'),
             const InfoRow(icon: FontAwesomeIcons.mapPin, title: 'Location', value: 'Thandalam, Chennai, Tamil Nadu, India'),
             const InfoRow(icon: FontAwesomeIcons.city, title: 'Campus', value: 'Urban'),
           ],

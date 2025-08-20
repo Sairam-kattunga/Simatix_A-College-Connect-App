@@ -183,26 +183,76 @@ class AboutAppScreen extends StatelessWidget {
             _buildSectionCard(
               title: 'About Simatix',
               content: Text(
-                'Simatix is a professional, modern, and intuitive app designed '
-                    'to provide seamless access to faculty and institutional resources. '
-                    'It helps students, staff, and faculty access rules, feedback, social media, '
-                    'live updates, and other essential resources efficiently.',
-                style: TextStyle(fontSize: 15.5, height: 1.65, color: secondaryText.withOpacity(0.95)),
+                'Simatix is a modern, professional, and user-friendly college companion app. '
+                    'It provides seamless access to faculty profiles, course materials, campus information, '
+                    'real-time updates, social media channels, and feedback tools, empowering students, '
+                    'staff, and faculty to stay informed and efficiently manage their academic and campus life.',
+                style: TextStyle(
+                  fontSize: 15.5,
+                  height: 1.65,
+                  color: secondaryText.withOpacity(0.95),
+                ),
               ),
+
             ),
             const SizedBox(height: 24),
             _buildSectionCard(
               title: 'Key Features',
               content: Column(
                 children: [
-                  _buildFeatureTile(context, FontAwesomeIcons.usersGear, 'Faculty directory with profiles'),
-                  _buildFeatureTile(context, FontAwesomeIcons.bookOpenReader, 'College rules and guidelines'),
-                  _buildFeatureTile(context, FontAwesomeIcons.solidCommentAlt, 'Feedback and reviews submission'),
-                  _buildFeatureTile(context, FontAwesomeIcons.satelliteDish, 'Live updates & notifications'), // Changed icon
-                  _buildFeatureTile(context, FontAwesomeIcons.fileLines, 'Course PDFs & academic calculators'), // Changed icon
-                  _buildFeatureTile(context, FontAwesomeIcons.boltLightning, 'Fast, responsive, and user-friendly interface'),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.buildingColumns,
+                    'College Information: Access general info & official rules',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.userGraduate,
+                    'Faculty Directory: Complete profiles of all faculty members',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.bookOpenReader,
+                    'Course Materials: Browse subjects & download PDFs',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.calculator,
+                    'CGPA Calculator: Quickly calculate your cumulative GPA',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.calendarCheck,
+                    'Attendance Tracker: Keep track of your attendance',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.utensils,
+                    'Canteen Reviews: Read & submit campus canteen reviews',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.locationDot,
+                    'Nearby Places: Discover interesting spots near campus',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.hashtag,
+                    'Social Media Hub: Access official college channels',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.solidCommentDots,
+                    'Feedback System: Provide valuable app feedback',
+                  ),
+                  _buildFeatureTile(
+                    context,
+                    FontAwesomeIcons.triangleExclamation,
+                    'Maintenance Mode: Get notified about ongoing maintenance',
+                  ),
                 ],
               ),
+
             ),
             const SizedBox(height: 24),
             // Pass the screen's context to the method that will show the dialog

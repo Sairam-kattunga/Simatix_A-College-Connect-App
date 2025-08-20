@@ -397,7 +397,7 @@ class _FacultyDirectoryScreenState extends State<FacultyDirectoryScreen> {
                             child: ElevatedButton.icon(
                               onPressed: () => _whatsapp(_selectedFaculty!.phone),
                               icon: const Icon(Icons.chat_bubble),
-                              label: const Text('WhatsApp'),
+                              label: const Text('Msg'),
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.teal,
                                 foregroundColor: Colors.white,
